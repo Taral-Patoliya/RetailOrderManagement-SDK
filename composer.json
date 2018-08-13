@@ -1,0 +1,40 @@
+{
+    "name": "radial/retail-order-management",
+    "license": "OSL-3.0",
+    "description": "Software Development Kit for working with the Retail Order Management Web API",
+    "authors": [
+        {
+            "name": "Taral Patoliya",
+            "email": "tpatoliya@corra.com"
+        }
+    ],
+    "require-dev": {
+        "pdepend/pdepend": "~1.1",
+        "phpdocumentor/phpdocumentor": "~2.4",
+        "phploc/phploc": "~2.0",
+        "phpmd/phpmd": "~1.5",
+        "phpunit/phpunit": "~4.3",
+        "sebastian/phpcpd": "~2.0",
+        "squizlabs/php_codesniffer": "~1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.5.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "Radial\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Radial\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "rmccue/requests": "~1.6",
+        "videlalvaro/php-amqplib": "~2.4"
+    }
+}
