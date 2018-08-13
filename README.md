@@ -14,14 +14,14 @@ In composer.json:
 
 ```json
 "require": {
-    "ebayenterprise/retail-order-management": "~1.0"
+    "taral/retail-order-management": "1.0.5"
 }
 ```
 
 Or with the Composer CLI:
 
 ```bash
-php composer.phar require ebayenterprise/retail-order-management:~1.0
+php composer.phar require taral/retail-order-management:1.0.5
 ```
 
 ## Payloads
@@ -273,37 +273,3 @@ while ($payloads->valid()) {
 }
 ```
 
-## Tests
-
-### Using [Docker]
-
-A [fig file](fig.yml) is included to automate creating and coordinating [Docker] containers to install and run tests.
-
-To install and run tests using [Fig]:
-
-```sh
-# setup and install
-fig run --rm setup
-fig run --rm composer install
-# run tests
-fig run --rm phpunit
-```
-
-See [fig.yml](fig.yml) for additional commands for automated tests and static analysis.
-
-See [Docker] and [Fig] for additional installation and usage information.
-
-### Local with [Composer]
-
-After composer has installed all dependencies, tests can be run from the
-SDK's root directory.
-
-```sh
-vendor/bin/phpunit
-vendor/bin/phpmd src text phpmd.xml
-vendor/bin/phpcs --standard=psr2 src
-```
-
-[Composer]: https://getcomposer.org/
-[Docker]: https://www.docker.com/
-[Fig]: http://www.fig.sh/
