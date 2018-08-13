@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\TTopLevelPayload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
@@ -115,7 +115,7 @@ class PayPalDoVoidRequest implements IPayPalDoVoidRequest
      */
     public function getRequestId()
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalDoVoidRequest
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalDoVoidRequest
         return $this->requestId;
     }
 
@@ -125,7 +125,7 @@ class PayPalDoVoidRequest implements IPayPalDoVoidRequest
      */
     public function setRequestId($requestId)
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalDoVoidRequest
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalDoVoidRequest
         $this->requestId = $requestId;
         return $this;
     }

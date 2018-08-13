@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
-use eBayEnterprise\RetailOrderManagement\Payload\TPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Payment\TAmount;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\PayloadFactory;
+use Radial\RetailOrderManagement\Payload\TPayload;
+use Radial\RetailOrderManagement\Payload\Payment\TAmount;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\PayloadFactory;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -88,7 +88,7 @@ class AllocatedItem implements IAllocatedItem
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::serializeContents
+     * @see Radial\RetailOrderManagement\Payload\TPayload::serializeContents
      * @return string
      */
     protected function serializeContents()
@@ -98,7 +98,7 @@ class AllocatedItem implements IAllocatedItem
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::getRootAttributes
+     * @see Radial\RetailOrderManagement\Payload\TPayload::getRootAttributes
      * @return array
      */
     protected function getRootAttributes()
@@ -107,7 +107,7 @@ class AllocatedItem implements IAllocatedItem
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::getRootNodeName
+     * @see Radial\RetailOrderManagement\Payload\TPayload::getRootNodeName
      * @return string
      */
     protected function getRootNodeName()
@@ -116,7 +116,7 @@ class AllocatedItem implements IAllocatedItem
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::getXmlNamespace
+     * @see Radial\RetailOrderManagement\Payload\TPayload::getXmlNamespace
      * @param string
      * @return self
      */

@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
 /**
  * trait TPaymentAccountUniqueId
- * @package eBayEnterprise\RetailOrderManagement\Payload\Payment
+ * @package Radial\RetailOrderManagement\Payload\Payment
  * @example <PaymentAccountUniqueId isToken="true">{card number}</PaymentAccountUniqueId>
  */
 trait TPaymentAccountUniqueId

@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
 use DOMDocument;
 use DOMXPath;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 trait TIterablePayload
 {

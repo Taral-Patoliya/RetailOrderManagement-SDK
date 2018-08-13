@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api\Amqp;
+namespace Radial\RetailOrderManagement\Api\Amqp;
 
 /**
  * Interface IConnectionConfig
- * @package eBayEnterprise\RetailOrderManagement\Api\Amqp
+ * @package Radial\RetailOrderManagement\Api\Amqp
  *
  * Provides the AmqpConfig object with params needed specifically for the type
  * of AMQP connection being created.

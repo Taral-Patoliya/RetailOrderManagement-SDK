@@ -13,10 +13,10 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 use DateTime;
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\IDestinationContainer;
+use Radial\RetailOrderManagement\Payload\Checkout\IDestinationContainer;
 
 interface IOrderCreateRequest extends IOrderCreate, IOrderCustomer, IOrderItemContainer, IShipGroupContainer, IDestinationContainer, IPaymentContainer, IItemRelationshipContainer, IOrderHoldContainer, ICustomAttributeContainer, ITemplateContainer, IOrderContext
 {

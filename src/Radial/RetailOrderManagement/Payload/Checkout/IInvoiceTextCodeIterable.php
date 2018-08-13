@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Checkout;
+namespace Radial\RetailOrderManagement\Payload\Checkout;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IInvoiceTextCodeIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const INVOICE_TEXT_CODE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Checkout\IInvoiceTextCode';
+        '\Radial\RetailOrderManagement\Payload\Checkout\IInvoiceTextCode';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**

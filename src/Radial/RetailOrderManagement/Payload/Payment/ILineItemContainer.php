@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
 /**
  * Interface ILineItemContainer
- * @package eBayEnterprise\RetailOrderManagement\Payload\Payment
+ * @package Radial\RetailOrderManagement\Payload\Payment
  */
 interface ILineItemContainer
 {
-    const ITERABLE_INTERFACE = '\eBayEnterprise\RetailOrderManagement\Payload\Payment\ILineItemIterable';
+    const ITERABLE_INTERFACE = '\Radial\RetailOrderManagement\Payload\Payment\ILineItemIterable';
 
     /**
      * Get an iterable of the line items for this container.

@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface ITaxIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
-    const TAX_INTERFACE = '\eBayEnterprise\RetailOrderManagement\Payload\Order\ITax';
+    const TAX_INTERFACE = '\Radial\RetailOrderManagement\Payload\Order\ITax';
 
     /**
      * Get a new, empty tax object.

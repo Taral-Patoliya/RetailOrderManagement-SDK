@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\PayloadFactory;
-use eBayEnterprise\RetailOrderManagement\Payload\TPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\PayloadFactory;
+use Radial\RetailOrderManagement\Payload\TPayload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
@@ -148,7 +148,7 @@ class ItemRelationship implements IItemRelationship
     protected function getItemContainer()
     {
         $this->debug = true;
-        return $this->getAncestorPayloadOfType('\eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItemContainer');
+        return $this->getAncestorPayloadOfType('\Radial\RetailOrderManagement\Payload\Order\IOrderItemContainer');
     }
 
     protected function serializeContents()

@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IShippedItem extends IOrderDetailTrackingNumberContainer, IPayload
 {

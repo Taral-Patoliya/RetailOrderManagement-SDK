@@ -12,14 +12,14 @@
  * @copyright   Copyright (c) 2013-2014 eBay Enterprise, Inc. (http://www.ebayenterprise.com/)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
-namespace eBayEnterprise\RetailOrderManagement\Payload\Risk;
+namespace Radial\RetailOrderManagement\Payload\Risk;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IOrderEvent;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\OrderEvents\IOrderEvent;
 
 /**
  * Interface IRiskAssessmentReply
- * @package eBayEnterprise\RetailOrderManagement\Payload\Risk
+ * @package Radial\RetailOrderManagement\Payload\Risk
  */
 interface IRiskAssessmentReply extends IPayload, IOrderEvent
 {

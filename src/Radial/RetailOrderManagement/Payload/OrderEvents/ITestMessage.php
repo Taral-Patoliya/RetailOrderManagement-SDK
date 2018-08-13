@@ -14,9 +14,9 @@
  */
 
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface ITestMessage extends IPayload, IOrderEvent
 {

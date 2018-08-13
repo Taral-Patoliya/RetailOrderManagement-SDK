@@ -1,14 +1,14 @@
 <?php
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment\TenderType;
+namespace Radial\RetailOrderManagement\Payload\Payment\TenderType;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Payment\TCurrencyCode;
-use eBayEnterprise\RetailOrderManagement\Payload\Payment\TPaymentAccountUniqueId;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\TTopLevelPayload;
+use Radial\RetailOrderManagement\Payload\Payment\TCurrencyCode;
+use Radial\RetailOrderManagement\Payload\Payment\TPaymentAccountUniqueId;
 use Psr\Log\LoggerInterface;
 
 class LookupRequest implements ILookupRequest

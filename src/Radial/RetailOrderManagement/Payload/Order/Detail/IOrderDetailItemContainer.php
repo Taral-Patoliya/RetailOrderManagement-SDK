@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
 interface IOrderDetailItemContainer
 {
     const ORDER_ITEM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IOrderDetailItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IOrderDetailItemIterable';
 
     /**
      * Get all order detail items associated with the order.

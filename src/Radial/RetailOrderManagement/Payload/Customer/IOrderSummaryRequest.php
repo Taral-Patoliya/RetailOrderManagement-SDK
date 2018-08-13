@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Customer;
+namespace Radial\RetailOrderManagement\Payload\Customer;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderSummaryRequest extends IPayload
 {
@@ -23,7 +23,7 @@ interface IOrderSummaryRequest extends IPayload
     const ROOT_NODE = 'OrderSummaryRequest';
     const XSD = '/checkout/1.0/Order-Service-Search-1.0.xsd';
     const ORDER_SEARCH_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Customer\IOrderSearch';
+        '\Radial\RetailOrderManagement\Payload\Customer\IOrderSearch';
 
     /**
      * Search can be one of 2 types. Order Search or Related Order Search.

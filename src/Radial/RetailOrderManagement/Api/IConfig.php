@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
 /**
  * Interface IConfig
- * @package eBayEnterprise\RetailOrderManagement\Api
+ * @package Radial\RetailOrderManagement\Api
  *
  * Provides an IApi object with the metadata it needs to send and/or receive
  * the right payload objects to the right places.
@@ -28,7 +28,7 @@ interface IConfig
      * Provide a means to look up constant configuration information
      * from PayloadConfigMap
      *
-     * @see eBayEnterprise/RetailOrderManagement/Payload/PayloadConfigMap.php
+     * @see Radial/RetailOrderManagement/Payload/PayloadConfigMap.php
      * @return string
      */
     public function getConfigKey();

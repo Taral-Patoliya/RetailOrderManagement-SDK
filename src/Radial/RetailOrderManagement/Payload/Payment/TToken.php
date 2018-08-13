@@ -13,7 +13,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
 trait TToken
 {
@@ -38,7 +38,7 @@ trait TToken
      */
     public function getToken()
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
         return $this->token;
     }
 
@@ -49,7 +49,7 @@ trait TToken
      */
     public function setToken($token)
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
         $this->token = $this->cleanString($token, 20);
         return $this;
     }

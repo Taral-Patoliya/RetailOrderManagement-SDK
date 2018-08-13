@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
 /**
  * Generic implementation strategies for things logger have to do.
  *
  * trait TPayloadLogger
- * @package eBayEnterprise\RetailOrderManagement\Payload
+ * @package Radial\RetailOrderManagement\Payload
  */
 trait TPayloadLogger
 {

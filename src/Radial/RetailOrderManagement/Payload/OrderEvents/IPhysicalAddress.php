@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\IPhysicalAddress as ICheckoutPhysicalAddress;
+use Radial\RetailOrderManagement\Payload\Checkout\IPhysicalAddress as ICheckoutPhysicalAddress;
 
 /**
  * Interface consolidated with general checkout interface. Maintaining
  * this interface to keep backwards compability.
  *
- * @deprecated Use \eBayEnterprise\RetailOrderManagement\Payload\Checkout\IPhysicalAddress instead.
+ * @deprecated Use \Radial\RetailOrderManagement\Payload\Checkout\IPhysicalAddress instead.
  */
 interface IPhysicalAddress extends ICheckoutPhysicalAddress
 {

@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
 /**
  * Interface IAmqpApi
- * @package eBayEnterprise\RetailOrderManagement\Api
+ * @package Radial\RetailOrderManagement\Api
  */
 interface IAmqpApi extends IOmnidirectionalApi
 {

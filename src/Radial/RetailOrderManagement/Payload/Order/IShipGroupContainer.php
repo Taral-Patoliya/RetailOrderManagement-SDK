@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 interface IShipGroupContainer
 {
     const SHIP_GROUP_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IShipGroupIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\IShipGroupIterable';
 
     /**
      * Get all ship groups for the order.

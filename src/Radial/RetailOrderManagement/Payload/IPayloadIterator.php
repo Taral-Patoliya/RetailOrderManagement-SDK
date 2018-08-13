@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
 /**
  * Interface IPayloadIterator
- * @package eBayEnterprise\RetailOrderManagement\Payload
+ * @package Radial\RetailOrderManagement\Payload
  *
  * For processing batches of responses, one at a time.
  *

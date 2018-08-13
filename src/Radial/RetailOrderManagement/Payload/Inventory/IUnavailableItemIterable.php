@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IIterablePayload;
+use Radial\RetailOrderManagement\Payload\IIterablePayload;
 
 interface IUnavailableItemIterable extends IItemIterable
 {
     const UNAVAILABLE_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IUnavailableItem';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IUnavailableItem';
 
     /**
      * Get a new, empty payload for an unavailable item.

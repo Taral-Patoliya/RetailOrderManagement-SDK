@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Address;
+namespace Radial\RetailOrderManagement\Payload\Address;
 
 interface ISuggestedAddressContainer
 {
     const SUGGESTED_ADDRESS_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Address\ISuggestedAddressIterable';
+        '\Radial\RetailOrderManagement\Payload\Address\ISuggestedAddressIterable';
 
     /**
      * Get all suggested addresses in the container.

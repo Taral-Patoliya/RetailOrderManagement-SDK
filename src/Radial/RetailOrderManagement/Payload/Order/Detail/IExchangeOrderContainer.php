@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
 interface IExchangeOrderContainer
 {
     const EXCHANGE_ORDER_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IExchangeOrderIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IExchangeOrderIterable';
 
     /**
      * Get all order detail exchange order associated with the order.

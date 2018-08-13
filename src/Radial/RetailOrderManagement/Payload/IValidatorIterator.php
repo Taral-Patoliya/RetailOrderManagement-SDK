@@ -14,11 +14,11 @@
  */
 
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
 /**
  * Interface IValidatorIterator
- * @package eBayEnterprise\RetailOrderManagement\Payload
+ * @package Radial\RetailOrderManagement\Payload
  *
  * For processing batches of validators, one at a time.
  *

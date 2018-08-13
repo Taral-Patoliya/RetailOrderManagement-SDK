@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
 interface ITrackingNumberContainer
 {
     const TRACKING_NUMBER_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ITrackingNumberIterable';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\ITrackingNumberIterable';
 
     /**
      * Get tracking numbers

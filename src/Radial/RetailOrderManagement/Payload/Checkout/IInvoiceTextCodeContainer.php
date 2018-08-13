@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Checkout;
+namespace Radial\RetailOrderManagement\Payload\Checkout;
 
 interface IInvoiceTextCodeContainer
 {
     const INVOICE_TEXT_CODE_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Checkout\IInvoiceTextCodeIterable';
+        '\Radial\RetailOrderManagement\Payload\Checkout\IInvoiceTextCodeIterable';
 
     /**
      * Get all taxes in the container.

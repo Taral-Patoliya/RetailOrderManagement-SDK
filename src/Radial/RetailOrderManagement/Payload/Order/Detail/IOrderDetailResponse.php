@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderDetailResponse extends IPayload
 {
@@ -23,7 +23,7 @@ interface IOrderDetailResponse extends IPayload
     const ROOT_NODE = 'OrderDetailResponse';
     const XSD = '/checkout/1.0/Order-Service-Detail-1.0.xsd';
     const ORDER_RESPONSE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IOrderResponse';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IOrderResponse';
 
     /**
      * The type of order as defined in Sterling.

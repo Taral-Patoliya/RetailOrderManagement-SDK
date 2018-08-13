@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 interface IOrderHoldContainer
 {
     const ORDER_HOLD_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderHoldIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\IOrderHoldIterable';
 
     /**
      * Get all holds placed on the order.

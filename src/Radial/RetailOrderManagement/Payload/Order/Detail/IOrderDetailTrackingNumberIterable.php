@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderDetailTrackingNumberIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const ORDER_DETAIL_TRACKING_NUMBER_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IOrderDetailTrackingNumber';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IOrderDetailTrackingNumber';
 
     /**
      * Get a new, empty order detail tracking number object.

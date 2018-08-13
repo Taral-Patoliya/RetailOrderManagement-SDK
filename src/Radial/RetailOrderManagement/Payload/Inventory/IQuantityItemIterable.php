@@ -13,17 +13,17 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
 use ArrayAccess;
 use Countable;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 use Iterator;
 
 interface IQuantityItemIterable extends Countable, Iterator, ArrayAccess, IPayload
 {
     const QUANTITY_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IQuantityItem';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IQuantityItem';
     const ROOT_NODE = 'QuantityItems';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 

@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Checkout;
+namespace Radial\RetailOrderManagement\Payload\Checkout;
 
 interface IDestinationContainer
 {
     const DESTINATION_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Checkout\IDestinationIterable';
+        '\Radial\RetailOrderManagement\Payload\Checkout\IDestinationIterable';
 
     /**
      * Billing, shipping and delivery destinations for the order. May be

@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Payload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

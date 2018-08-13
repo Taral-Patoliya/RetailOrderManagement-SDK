@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
 /**
  * Interface IPaymentContext
- * @package eBayEnterprise\RetailOrderManagement\Payload\Payment
+ * @package Radial\RetailOrderManagement\Payload\Payment
  *
  * <PaymentContext>
  *     <OrderId>I7mDiCpD4k4YUejr</OrderId>

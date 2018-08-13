@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface ITaxContainer extends ITaxClass
 {
     const TAX_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxIterable';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxIterable';
 
     /**
      * Get all taxes in the container.

@@ -13,10 +13,10 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\TTopLevelPayload;
 
 interface IOrderShipped extends IPayload, ICurrency, ILoyaltyProgramCustomer, IOrderEvent, IOrderItemContainer, IPaymentContainer, ISummaryAmounts, IShippedAmounts, ITaxDescriptionContainer
 {
@@ -24,9 +24,9 @@ interface IOrderShipped extends IPayload, ICurrency, ILoyaltyProgramCustomer, IO
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const XSD = '/events/1.0/events/Order-Shipping-Event-1.0.xsd';
     const MAILING_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IMailingAddress';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IMailingAddress';
     const STORE_FRONT_DETAILS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IStoreFrontDetails';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IStoreFrontDetails';
 
     /**
      * Get the destination the items were shipped to. May be a customer

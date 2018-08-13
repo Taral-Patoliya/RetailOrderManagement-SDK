@@ -1,8 +1,8 @@
 <?php
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment\TenderType;
+namespace Radial\RetailOrderManagement\Payload\Payment\TenderType;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface ILookupReply extends ILookupMessage, IPayload
 {

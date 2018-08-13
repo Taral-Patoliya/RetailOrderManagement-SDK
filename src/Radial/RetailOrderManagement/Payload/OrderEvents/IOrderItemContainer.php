@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
 interface IOrderItemContainer
 {
     const ORDER_ITEM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IOrderItemIterable';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IOrderItemIterable';
     /**
      * Get all order items.
      * @return IOrderItemIterable

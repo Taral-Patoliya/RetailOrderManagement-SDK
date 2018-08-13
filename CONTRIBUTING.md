@@ -11,7 +11,7 @@
 The eBay Enterprise development team will review all issues and contributions submitted by the community of developers. Contributions can take the form of new components/features, changes to existing features, tests, documentation (such as developer guides, user guides, examples, or specifications), bug fixes, optimizations or just good suggestions. To assist in the expediency of the review process, we strongly encourage you to follow all the proper requirements stated below before submitting any code for consideration.
 
 ## Contribution Process
-1. Search current [listed issues](https://github.com/eBayEnterprise/RetailOrderManagement-SDK/issues) (open or closed) for similar proposals of intended contribution before starting work on a new contribution. If you don't find an existing to match your request, please create a new issue so we can track your proposal.
+1. Search current [listed issues](https://github.com/Radial/RetailOrderManagement-SDK/issues) (open or closed) for similar proposals of intended contribution before starting work on a new contribution. If you don't find an existing to match your request, please create a new issue so we can track your proposal.
 1. If this is your first time contributing, please review the [Contributor License Agreement](#contributor-license-agreement).
 1. Fork the repository.
 1. Test and develop your work.

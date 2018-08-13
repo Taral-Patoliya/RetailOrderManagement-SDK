@@ -13,7 +13,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
 /**
  * Container for allocations
@@ -21,7 +21,7 @@ namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
 interface IAllocatedItemContainer
 {
     const ALLOCATED_ITEM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IAllocatedItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IAllocatedItemIterable';
 
     /**
      * Collection of items and their allocation status.

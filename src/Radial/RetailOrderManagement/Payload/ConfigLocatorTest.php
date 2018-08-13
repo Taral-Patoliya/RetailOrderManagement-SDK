@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
 class ConfigLocatorTest extends \PHPUnit_Framework_TestCase
 {
-    const TEST_PAYLOAD_TYPE = '\eBayEnterprise\RetailOrderManagement\Payload\Test';
+    const TEST_PAYLOAD_TYPE = '\Radial\RetailOrderManagement\Payload\Test';
     /** @var array */
     protected $testPayloadConfig;
     /** @var array */
@@ -53,7 +53,7 @@ class ConfigLocatorTest extends \PHPUnit_Framework_TestCase
 
     public function testUnsupportedPayloadExceptionForUnknownType()
     {
-        $this->setExpectedException('\eBayEnterprise\RetailOrderManagement\Payload\Exception\UnsupportedPayload');
+        $this->setExpectedException('\Radial\RetailOrderManagement\Payload\Exception\UnsupportedPayload');
         $this->locator->getPayloadConfig('NotAPayloadTestType');
     }
 }

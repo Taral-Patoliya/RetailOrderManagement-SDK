@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Address;
+namespace Radial\RetailOrderManagement\Payload\Address;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IErrorLocationIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const ERROR_LOCATION_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Address\IErrorLocation';
+        '\Radial\RetailOrderManagement\Payload\Address\IErrorLocation';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**

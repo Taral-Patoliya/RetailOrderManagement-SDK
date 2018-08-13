@@ -13,10 +13,10 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Checkout;
+namespace Radial\RetailOrderManagement\Payload\Checkout;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\ITax as IOrderTax;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Order\ITax as IOrderTax;
 
 interface ITax extends IOrderTax, IInvoiceTextCodeContainer
 {

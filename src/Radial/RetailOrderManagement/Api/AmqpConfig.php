@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
 /**
  * Class AmqpConfig
- * @package eBayEnterprise\RetailOrderManagement\Api
+ * @package Radial\RetailOrderManagement\Api
  */
 class AmqpConfig implements IAmqpConfig
 {
@@ -28,8 +28,8 @@ class AmqpConfig implements IAmqpConfig
     protected $logger;
     protected $connectionConfigTypes = [
         '\PhpAmqpLib\Connection\AMQPSSLConnection' =>
-            '\eBayEnterprise\RetailOrderManagement\Api\Amqp\SslConnectionConfig',
-        '\PhpAmqpLib\Connection\AMQPConnection' => '\eBayEnterprise\RetailOrderManagement\Api\Amqp\ConnectionConfig',
+            '\Radial\RetailOrderManagement\Api\Amqp\SslConnectionConfig',
+        '\PhpAmqpLib\Connection\AMQPConnection' => '\Radial\RetailOrderManagement\Api\Amqp\ConnectionConfig',
     ];
     /**
      * type of connection to make

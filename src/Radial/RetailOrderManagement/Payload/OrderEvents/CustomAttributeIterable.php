@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\Order\CustomAttributeIterable as OrderCustomAttributeIterable;
+use Radial\RetailOrderManagement\Payload\Order\CustomAttributeIterable as OrderCustomAttributeIterable;
 
 class CustomAttributeIterable extends OrderCustomAttributeIterable implements ICustomAttributeIterable
 {

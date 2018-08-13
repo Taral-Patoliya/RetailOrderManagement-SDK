@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
-use eBayEnterprise\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Payload;
 
 /**
  * Interface IApi
- * @package eBayEnterprise\RetailOrderManagement\Api
+ * @package Radial\RetailOrderManagement\Api
  *
  * A generic api object that serves as the basis for other API objects.
  */

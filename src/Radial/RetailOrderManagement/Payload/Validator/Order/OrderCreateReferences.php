@@ -13,18 +13,18 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Validator\Order;
+namespace Radial\RetailOrderManagement\Payload\Validator\Order;
 
 use ArrayAccess;
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\IDestinationIterable;
-use eBayEnterprise\RetailOrderManagement\Payload\Exception\InvalidPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderCreateRequest;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItem;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItemIterable;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItemReferenceContainer;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IShipGroup;
+use Radial\RetailOrderManagement\Payload\Checkout\IDestinationIterable;
+use Radial\RetailOrderManagement\Payload\Exception\InvalidPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IValidator;
+use Radial\RetailOrderManagement\Payload\Order\IOrderCreateRequest;
+use Radial\RetailOrderManagement\Payload\Order\IOrderItem;
+use Radial\RetailOrderManagement\Payload\Order\IOrderItemIterable;
+use Radial\RetailOrderManagement\Payload\Order\IOrderItemReferenceContainer;
+use Radial\RetailOrderManagement\Payload\Order\IShipGroup;
 
 class OrderCreateReferences implements IValidator
 {

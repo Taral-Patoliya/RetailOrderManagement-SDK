@@ -1,6 +1,6 @@
 <?php
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment\TenderType;
+namespace Radial\RetailOrderManagement\Payload\Payment\TenderType;
 
 interface ILookupMessage
 {

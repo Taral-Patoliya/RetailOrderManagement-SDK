@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderItemRequestIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const ORDER_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IOrderItem';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IOrderItem';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**

@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IBackOrderShipGroup extends IShipGroup
 {
     const EDD_MESSAGE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IEddMessage';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IEddMessage';
 
     /**
      * The estimated ship date

@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
 interface IQuantityItemContainer
 {
     const QUANTITY_ITEM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IQuantityItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IQuantityItemIterable';
 
     /**
      * Get all quantity items in the container.

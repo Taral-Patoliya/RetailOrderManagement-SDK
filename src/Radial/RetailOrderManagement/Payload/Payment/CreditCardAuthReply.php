@@ -13,19 +13,19 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\TTopLevelPayload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
 /**
  * Class CreditCardAuthReply
- * @package eBayEnterprise\RetailOrderManagement\Payload\Payment
+ * @package Radial\RetailOrderManagement\Payload\Payment
  */
 class CreditCardAuthReply implements ICreditCardAuthReply
 {

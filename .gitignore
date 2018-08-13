@@ -5,4 +5,4 @@ composer.lock
 composer.phar
 *.swp
 
-/src/eBayEnterprise/RetailOrderManagement/nbproject/private/
+/src/Radial/RetailOrderManagement/nbproject/private/

@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Validator;
+namespace Radial\RetailOrderManagement\Payload\Validator;
 
-use eBayEnterprise\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Payload;
 
 /**
  * Class RequiredFields
- * @package eBayEnterprise\RetailOrderManagement\Payload\Validator
+ * @package Radial\RetailOrderManagement\Payload\Validator
  */
 class RequiredFields implements Payload\IValidator
 {

@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Validator;
+namespace Radial\RetailOrderManagement\Payload\Validator;
 
-use eBayEnterprise\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Payload;
 
 /**
  * Class OptionalGroup
@@ -23,7 +23,7 @@ use eBayEnterprise\RetailOrderManagement\Payload;
  * Validates an optional payload group. Valid if all of the given fields are
  * set (non-null) or none of the fields are set (null).
  *
- * @package eBayEnterprise\RetailOrderManagement\Payload\Validator
+ * @package Radial\RetailOrderManagement\Payload\Validator
  */
 class OptionalGroup implements Payload\IValidator
 {

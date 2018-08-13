@@ -13,20 +13,20 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface ITaxedOrderItem extends IOrderItem, ITaxedFeeContainer, ITaxedGifting, ITaxedCustomizationContainer
 {
     const MERCHANDISE_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxedMerchandisePriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxedMerchandisePriceGroup';
     const SHIPPING_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxedPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxedPriceGroup';
     const DUTY_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxedDutyPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxedDutyPriceGroup';
     const INVOICE_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxedPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxedPriceGroup';
     const PHYSICAL_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IOriginPhysicalAddress';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IOriginPhysicalAddress';
 
     /**
      * Get a new, empty price group for merchandise prices.

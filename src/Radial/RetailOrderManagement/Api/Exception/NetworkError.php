@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api\Exception;
+namespace Radial\RetailOrderManagement\Api\Exception;
 
 /**
  * Class NetworkError
- * @package eBayEnterprise\RetailOrderManagement\Api\Exception
+ * @package Radial\RetailOrderManagement\Api\Exception
  *
  * An error that happens when you try to interact with the network
  * and can't for some reason.

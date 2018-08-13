@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\PayloadFactory;
-use eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\PayloadFactory;
+use Radial\RetailOrderManagement\Payload\TTopLevelPayload;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -85,7 +85,7 @@ class AllocationRollbackReply implements IAllocationRollbackReply
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload::getSchemaFile
+     * @see Radial\RetailOrderManagement\Payload\TTopLevelPayload::getSchemaFile
      * @return string
      */
     protected function getSchemaFile()
@@ -94,7 +94,7 @@ class AllocationRollbackReply implements IAllocationRollbackReply
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload::getRootAttributes
+     * @see Radial\RetailOrderManagement\Payload\TTopLevelPayload::getRootAttributes
      * @return array
      */
     protected function getRootAttributes()
@@ -106,7 +106,7 @@ class AllocationRollbackReply implements IAllocationRollbackReply
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::getRootNodeName
+     * @see Radial\RetailOrderManagement\Payload\TPayload::getRootNodeName
      * @return string
      */
     protected function getRootNodeName()
@@ -115,7 +115,7 @@ class AllocationRollbackReply implements IAllocationRollbackReply
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::serializeContents
+     * @see Radial\RetailOrderManagement\Payload\TPayload::serializeContents
      * @return string
      */
     protected function serializeContents()
@@ -124,7 +124,7 @@ class AllocationRollbackReply implements IAllocationRollbackReply
     }
 
     /**
-     * @see eBayEnterprise\RetailOrderManagement\Payload\TPayload::getXmlNamespace
+     * @see Radial\RetailOrderManagement\Payload\TPayload::getXmlNamespace
      * @return string
      */
     protected function getXmlNamespace()

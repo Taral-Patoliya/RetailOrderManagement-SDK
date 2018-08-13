@@ -13,7 +13,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Exception;
+namespace Radial\RetailOrderManagement\Payload\Exception;
 
 class UnsupportedPayload extends Payload
 {

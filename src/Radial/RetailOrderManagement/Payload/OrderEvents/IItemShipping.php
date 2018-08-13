@@ -13,16 +13,16 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
 use DateTime;
 
 interface IItemShipping
 {
     const MAILING_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IMailingAddress';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IMailingAddress';
     const STORE_FRONT_DETAILS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IStoreFrontDetails';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IStoreFrontDetails';
 
     /**
      * Shipping method used to deliver the item.

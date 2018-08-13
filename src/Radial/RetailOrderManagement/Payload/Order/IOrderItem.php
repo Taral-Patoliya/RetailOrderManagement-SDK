@@ -13,20 +13,20 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IIdentity;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IIdentity;
 
 interface IOrderItem extends IPayload, IIdentity, IFeeContainer, IEstimatedDeliveryDate, IGifting, IItemCustomization, ICustomAttributeContainer, INamedDeliveryDate
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\Order\IPriceGroup';
     const STORE_FRONT_DETAILS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IStoreFrontDetails';
+        '\Radial\RetailOrderManagement\Payload\Order\IStoreFrontDetails';
     const PROXY_PICKUP_DETAILS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IProxyPickupDetails';
+        '\Radial\RetailOrderManagement\Payload\Order\IProxyPickupDetails';
     // Acceptable fulfillment channel values.
     const FULFILLMENT_CHANNEL_SHIP_TO_STORE = 'SHIP_TO_STORE';
     const FULFILLMENT_CHANNEL_STORE_PICK_UP = 'STORE_PICK_UP';

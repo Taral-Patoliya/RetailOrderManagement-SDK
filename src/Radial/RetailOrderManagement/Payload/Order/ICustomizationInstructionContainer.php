@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 interface ICustomizationInstructionContainer
 {
     const CUSTOMIZATION_INSTRUCTION_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\ICustomizationInstructionIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\ICustomizationInstructionIterable';
 
     /**
      * Get any instructions for the customization.

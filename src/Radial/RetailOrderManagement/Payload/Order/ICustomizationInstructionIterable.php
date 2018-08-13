@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface ICustomizationInstructionIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const CUSTOMIZATION_INSTRUCTION_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\ICustomizationInstruction';
+        '\Radial\RetailOrderManagement\Payload\Order\ICustomizationInstruction';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**

@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 interface IPaymentContainer
 {
     const PAYMENT_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPaymentIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\IPaymentIterable';
 
     /**
      * Get all payments for the order.

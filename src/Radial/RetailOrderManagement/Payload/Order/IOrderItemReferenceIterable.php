@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderItemReferenceIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const ITEM_REFERENCE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItemReference';
+        '\Radial\RetailOrderManagement\Payload\Order\IOrderItemReference';
 
     /**
      * Get a new, empty item reference object.

@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
 interface IPerformedAdjustmentContainer
 {
     const ADJUSTMENT_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IPerformedAdjustmentIterable';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IPerformedAdjustmentIterable';
     /**
      * Get all adjustments performed.
      * @return IPerformedAdjustmentIterable

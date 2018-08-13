@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface ITaxDutyFeeQuoteReply extends ITaxDutyFeeQuote, IDestinationContainer
 {
     const XSD = '/checkout/1.0/TaxDutyFee-QuoteResponse-1.0.xsd';
     const SHIP_GROUP_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxedShipGroupIterable';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxedShipGroupIterable';
 
     /**
      * Get all ship groups for the order.

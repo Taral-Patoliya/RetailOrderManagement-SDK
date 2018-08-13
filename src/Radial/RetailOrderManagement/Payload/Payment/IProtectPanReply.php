@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 /**
  * Interface IProtectPanReply The Reply Message for the Pan Tokenization Operation
- * @package eBayEnterprise\RetailOrderManagement\Payload\Payment
+ * @package Radial\RetailOrderManagement\Payload\Payment
  */
 interface IProtectPanReply extends IPayload
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment\TenderType;
+namespace Radial\RetailOrderManagement\Payload\Payment\TenderType;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Payment\IPaymentAccountUniqueId;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Payment\IPaymentAccountUniqueId;
 
 interface ILookupRequest extends ILookupMessage, IPayload, IPaymentAccountUniqueId
 {

@@ -159,17 +159,17 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Consolidated following interfaces to more general namespaces and deprecated old interfaces:
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ICustomAttribute` => `eBayEnterprise\RetailOrderManagement\Payload\Order\ICustomAttribute`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ICustomAttributeContainer` => `eBayEnterprise\RetailOrderManagement\Payload\Order\ICustomAttributeContainer`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ICustomAttributeIterable` => `eBayEnterprise\RetailOrderManagement\Payload\Order\ICustomAttributeIterable`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IDestination` => `eBayEnterprise\RetailOrderManagement\Payload\Checkout\IDestination`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ILoyaltyProgram` => `eBayEnterprise\RetailOrderManagement\Payload\Order\ILoyaltyProgram`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ILoyaltyProgramContainer` => `eBayEnterprise\RetailOrderManagement\Payload\Order\ILoyaltyProgramContainer`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ILoyaltyProgramIterable` => `eBayEnterprise\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IPersonName` => `eBayEnterprise\RetailOrderManagement\Payload\Checkout\IPersonName`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IPhysicalAddress` => `eBayEnterprise\RetailOrderManagement\Payload\Checkout\IPhysicalAddress`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IProductDescription` => `eBayEnterprise\RetailOrderManagement\Payload\Order\IProductDescription`
-  - `eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IStoreFrontDetails` => `eBayEnterprise\RetailOrderManagement\Payload\Order\IStoreFrontDetails`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\ICustomAttribute` => `Radial\RetailOrderManagement\Payload\Order\ICustomAttribute`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\ICustomAttributeContainer` => `Radial\RetailOrderManagement\Payload\Order\ICustomAttributeContainer`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\ICustomAttributeIterable` => `Radial\RetailOrderManagement\Payload\Order\ICustomAttributeIterable`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\IDestination` => `Radial\RetailOrderManagement\Payload\Checkout\IDestination`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\ILoyaltyProgram` => `Radial\RetailOrderManagement\Payload\Order\ILoyaltyProgram`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\ILoyaltyProgramContainer` => `Radial\RetailOrderManagement\Payload\Order\ILoyaltyProgramContainer`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\ILoyaltyProgramIterable` => `Radial\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\IPersonName` => `Radial\RetailOrderManagement\Payload\Checkout\IPersonName`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\IPhysicalAddress` => `Radial\RetailOrderManagement\Payload\Checkout\IPhysicalAddress`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\IProductDescription` => `Radial\RetailOrderManagement\Payload\Order\IProductDescription`
+  - `Radial\RetailOrderManagement\Payload\OrderEvents\IStoreFrontDetails` => `Radial\RetailOrderManagement\Payload\Order\IStoreFrontDetails`
 
 ## [1.1.0-alpha-1] - 2015-01-29
 ### Fixed
@@ -214,30 +214,30 @@ All notable changes to this project will be documented in this file.
 [1.5.2]: https://github.com/RadialCorp/RetailOrderManagement-SDK/compare/1.5.1...1.5.2
 [1.5.1]: https://github.com/RadialCorp/RetailOrderManagement-SDK/compare/1.5.0...1.5.1
 [1.5.0]: https://github.com/RadialCorp/RetailOrderManagement-SDK/compare/1.4.8...1.5.0
-[1.4.8]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.7...1.4.8
-[1.4.7]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.6...1.4.7
-[1.4.6]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.5...1.4.6
-[1.4.5]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.4...1.4.5
-[1.4.4]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.3...1.4.4
-[1.4.3]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.2...1.4.3
-[1.4.2]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.1...1.4.2
-[1.4.1]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.4.0...1.4.1
-[1.4.0]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.8...1.4.0
-[1.3.8]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.7...1.3.8
-[1.3.7]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.6...1.3.7
-[1.3.6]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.5...1.3.6
-[1.3.5]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.4...1.3.5
-[1.3.4]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.3...1.3.4
-[1.3.3]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.2...1.3.3
-[1.3.1]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.3.0...1.3.1
-[1.3.0]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.2.1...1.3.0
-[1.2.1]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.2.0...1.2.1
-[1.2.0]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.2.0-alpha-3...1.2.0
-[1.2.0-alpha-3]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.2.0-alpha-2...1.2.0-alpha-3
-[1.2.0-alpha-2]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.2.0-alpha-1...1.2.0-alpha-2
-[1.2.0-alpha-1]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.1.0-beta-1...1.2.0-alpha-1
-[1.1.0-beta-1]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.1.0-alpha-4...1.1.0-beta-1
-[1.1.0-alpha-4]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.1.0-alpha-3...1.1.0-alpha-4
-[1.1.0-alpha-3]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.1.0-alpha-2...1.1.0-alpha-3
-[1.1.0-alpha-2]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.1.0-alpha-1...1.1.0-alpha-2
-[1.1.0-alpha-1]: https://github.com/eBayEnterprise/RetailOrderManagement-SDK/compare/1.0.0...1.1.0-alpha-1
+[1.4.8]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.7...1.4.8
+[1.4.7]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.6...1.4.7
+[1.4.6]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.5...1.4.6
+[1.4.5]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.4...1.4.5
+[1.4.4]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.3...1.4.4
+[1.4.3]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.2...1.4.3
+[1.4.2]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.1...1.4.2
+[1.4.1]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.4.0...1.4.1
+[1.4.0]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.8...1.4.0
+[1.3.8]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.7...1.3.8
+[1.3.7]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.6...1.3.7
+[1.3.6]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.5...1.3.6
+[1.3.5]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.4...1.3.5
+[1.3.4]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.3...1.3.4
+[1.3.3]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.2...1.3.3
+[1.3.1]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.3.0...1.3.1
+[1.3.0]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.2.1...1.3.0
+[1.2.1]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.2.0...1.2.1
+[1.2.0]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.2.0-alpha-3...1.2.0
+[1.2.0-alpha-3]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.2.0-alpha-2...1.2.0-alpha-3
+[1.2.0-alpha-2]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.2.0-alpha-1...1.2.0-alpha-2
+[1.2.0-alpha-1]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.1.0-beta-1...1.2.0-alpha-1
+[1.1.0-beta-1]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.1.0-alpha-4...1.1.0-beta-1
+[1.1.0-alpha-4]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.1.0-alpha-3...1.1.0-alpha-4
+[1.1.0-alpha-3]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.1.0-alpha-2...1.1.0-alpha-3
+[1.1.0-alpha-2]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.1.0-alpha-1...1.1.0-alpha-2
+[1.1.0-alpha-1]: https://github.com/Radial/RetailOrderManagement-SDK/compare/1.0.0...1.1.0-alpha-1

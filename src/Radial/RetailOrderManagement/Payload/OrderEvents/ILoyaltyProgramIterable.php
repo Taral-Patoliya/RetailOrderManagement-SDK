@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable as IOrderLoyaltyProgramIterable;
+use Radial\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable as IOrderLoyaltyProgramIterable;
 
 /**
  * Interface consolidated with general checkout interface. Maintaining
  * this interface to keep backwards compability.
  *
- * @deprecated Use \eBayEnterprise\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable instead.
+ * @deprecated Use \Radial\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable instead.
  */
 interface ILoyaltyProgramIterable extends IOrderLoyaltyProgramIterable
 {

@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IStatusIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const STATUS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IStatus';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IStatus';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**

@@ -13,7 +13,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
 trait TCurrencyCode
 {
@@ -38,7 +38,7 @@ trait TCurrencyCode
      */
     public function getCurrencyCode()
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
         return $this->currencyCode;
     }
 
@@ -48,7 +48,7 @@ trait TCurrencyCode
      */
     public function setCurrencyCode($code)
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalGetExpressCheckoutRequest
         $cleaned = substr(trim($code), 0, 3);
         $this->currencyCode = (strlen($cleaned) < 3) ? null : $cleaned;
         return $this;

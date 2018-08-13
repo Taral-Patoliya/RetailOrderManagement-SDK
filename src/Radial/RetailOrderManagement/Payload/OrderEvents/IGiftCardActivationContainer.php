@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
 interface IGiftCardActivationContainer
 {
     const GIFT_CARD_ACTIVATION_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IGiftCardActivationIterable';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IGiftCardActivationIterable';
 
     /**
      * Get all gift card activations for the order.

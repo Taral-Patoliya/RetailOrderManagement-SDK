@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface IDiscountContainer
 {
     const DISCOUNT_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IDiscountIterable';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IDiscountIterable';
 
     /**
      * Get all discounts within the container.

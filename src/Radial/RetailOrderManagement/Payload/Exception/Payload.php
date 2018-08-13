@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Exception;
+namespace Radial\RetailOrderManagement\Payload\Exception;
 
 /**
  * Class Payload
- * @package eBayEnterprise\RetailOrderManagement\Payload\Exception
+ * @package Radial\RetailOrderManagement\Payload\Exception
  *
  * Provides a grouping of Payload-related exceptions.
  * (PHP doesn't allow you to catch more than one type of exception in a single try/catch statement,

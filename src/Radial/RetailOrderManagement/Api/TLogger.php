@@ -13,7 +13,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
@@ -22,7 +22,7 @@ use Psr\Log\NullLogger;
  * Common logger utility methods.
  *
  * trait TLogger
- * @package eBayEnterprise\RetailOrderManagement\Api
+ * @package Radial\RetailOrderManagement\Api
  */
 trait TLogger
 {

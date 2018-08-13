@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IProductDescription as IOrderProductDescription;
+use Radial\RetailOrderManagement\Payload\Order\IProductDescription as IOrderProductDescription;
 
 /**
  * Interface consolidated with general checkout interface. Maintaining
  * this interface to keep backwards compability.
  *
- * @deprecated Use \eBayEnterprise\RetailOrderManagement\Payload\Order\IProductDescription instead.
+ * @deprecated Use \Radial\RetailOrderManagement\Payload\Order\IProductDescription instead.
  */
 interface IProductDescription extends IOrderProductDescription
 {

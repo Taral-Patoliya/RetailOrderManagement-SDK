@@ -13,18 +13,18 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface IOrderItemRequest extends IOrderItem, IFeeContainer, IGifting, ICustomizationContainer
 {
     const MERCHANDISE_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IMerchandisePriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IMerchandisePriceGroup';
     const SHIPPING_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IPriceGroup';
     const DUTY_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IDutyPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IDutyPriceGroup';
     const PHYSICAL_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IOriginPhysicalAddress';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IOriginPhysicalAddress';
 
     /**
      * Get a new, empty price group for merchandise prices.

@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Exception;
+namespace Radial\RetailOrderManagement\Payload\Exception;
 
 /**
  * Class InvalidPayload
- * @package eBayEnterprise\RetailOrderManagement\Payload\Exception
+ * @package Radial\RetailOrderManagement\Payload\Exception
  *
  * Thrown when a locally-constructed payload could not validate before being sent.
  */

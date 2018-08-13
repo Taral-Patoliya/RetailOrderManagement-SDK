@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
-use eBayEnterprise\RetailOrderManagement\Api\IAmqpApi;
+use Radial\RetailOrderManagement\Api\IAmqpApi;
 use OutOfBoundsException;
 use PhpAmqpLib\Message\AMQPMessage;
 use Psr\Log\LoggerInterface;
@@ -23,7 +23,7 @@ use Psr\Log\NullLogger;
 
 /**
  * Class AmqpPayloadIterator
- * @package eBayEnterprise\RetailOrderManagement\Payload\Iterator
+ * @package Radial\RetailOrderManagement\Payload\Iterator
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class AmqpPayloadIterator implements IPayloadIterator

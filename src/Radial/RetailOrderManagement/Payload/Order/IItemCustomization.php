@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 interface IItemCustomization extends ICustomizationContainer
 {
     const CUSTOMIZATION_BASE_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPriceGroup';
+        '\Radial\RetailOrderManagement\Payload\Order\IPriceGroup';
 
     /**
      * Get a new, empty customization price group for customization pricing.

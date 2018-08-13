@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Customer;
+namespace Radial\RetailOrderManagement\Payload\Customer;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderSummaryIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const ORDER_SUMMARY_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Customer\IOrderSummary';
+        '\Radial\RetailOrderManagement\Payload\Customer\IOrderSummary';
     const ROOT_NODE = '';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const SUBPAYLOAD_XPATH = 'OrderSummary';

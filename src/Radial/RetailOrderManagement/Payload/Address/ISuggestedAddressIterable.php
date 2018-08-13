@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Address;
+namespace Radial\RetailOrderManagement\Payload\Address;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface ISuggestedAddressIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const SUGGESTED_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Address\ISuggestedAddress';
+        '\Radial\RetailOrderManagement\Payload\Address\ISuggestedAddress';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**

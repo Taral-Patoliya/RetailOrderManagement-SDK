@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Customer;
+namespace Radial\RetailOrderManagement\Payload\Customer;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderSummaryResponse extends IPayload
 {
@@ -23,7 +23,7 @@ interface IOrderSummaryResponse extends IPayload
     const ROOT_NODE = 'OrderSummaryResponse';
     const XSD = '/checkout/1.0/Order-Service-Search-1.0.xsd';
     const ORDER_SUMMARY_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Customer\IOrderSummaryIterable';
+        '\Radial\RetailOrderManagement\Payload\Customer\IOrderSummaryIterable';
 
     /**
      * Get all order summary responses.

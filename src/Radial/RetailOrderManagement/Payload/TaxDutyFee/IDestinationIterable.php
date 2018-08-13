@@ -13,16 +13,16 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\IDestinationIterable as ICheckoutDestinationIterable;
+use Radial\RetailOrderManagement\Payload\Checkout\IDestinationIterable as ICheckoutDestinationIterable;
 
 interface IDestinationIterable extends ICheckoutDestinationIterable
 {
     const MAILING_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IMailingAddress';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IMailingAddress';
     const EMAIL_ADDRESS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IEmailAddressDestination';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IEmailAddressDestination';
 
     /**
      * Get a new, empty mailing address destination object.

@@ -13,27 +13,27 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IPaymentIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const CREDIT_CARD_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\ICreditCardPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\ICreditCardPayment';
     const PREPAID_CREDIT_CARD_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPrepaidCreditCardPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\IPrepaidCreditCardPayment';
     const POINTS_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPointsPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\IPointsPayment';
     const STORED_VALUE_CARD_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IStoredValueCardPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\IStoredValueCardPayment';
     const PAY_PAL_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPayPalPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\IPayPalPayment';
     const PREPAID_CASH_ON_DELIVERY_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IPrepaidCashOnDeliveryPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\IPrepaidCashOnDeliveryPayment';
     const RESERVATION_PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IReservationPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\IReservationPayment';
 
     /**
      * Get a new, empty credit card payment object.

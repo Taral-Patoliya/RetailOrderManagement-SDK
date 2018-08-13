@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface ITaxedCustomizationContainer
 {
     const CUSTOMIZATION_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\ITaxedCustomizationIterable';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\ITaxedCustomizationIterable';
 
     /**
      * get a new, empty ITaxedMerchandisePriceGroup object

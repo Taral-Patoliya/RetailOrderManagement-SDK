@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Address;
+namespace Radial\RetailOrderManagement\Payload\Address;
 
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\TPhysicalAddress;
+use Radial\RetailOrderManagement\Payload\Checkout\TPhysicalAddress;
 
 trait TResultAddress
 {

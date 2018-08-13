@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderHoldIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const ORDER_HOLD_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderHold';
+        '\Radial\RetailOrderManagement\Payload\Order\IOrderHold';
 
     /**
      * Get a new, empty order hold object.

@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
-use eBayEnterprise\RetailOrderManagement\Api\Exception\UnsupportedOperation;
-use eBayEnterprise\RetailOrderManagement\Api\TLogger;
-use eBayEnterprise\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Api\Exception\UnsupportedOperation;
+use Radial\RetailOrderManagement\Api\TLogger;
+use Radial\RetailOrderManagement\Payload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

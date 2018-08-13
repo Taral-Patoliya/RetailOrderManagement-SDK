@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\PayloadFactory;
-use eBayEnterprise\RetailOrderManagement\Payload\TIterablePayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\PayloadFactory;
+use Radial\RetailOrderManagement\Payload\TIterablePayload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use SPLObjectStorage;
@@ -29,7 +29,7 @@ class LineItemIterable extends SPLObjectStorage implements ILineItemIterable
 {
     use TIterablePayload;
 
-    const LINE_ITEM_INTERFACE = '\eBayEnterprise\RetailOrderManagement\Payload\Payment\ILineItem';
+    const LINE_ITEM_INTERFACE = '\Radial\RetailOrderManagement\Payload\Payment\ILineItem';
     /**
      * @param IValidatorIterator
      * @param ISchemaValidator

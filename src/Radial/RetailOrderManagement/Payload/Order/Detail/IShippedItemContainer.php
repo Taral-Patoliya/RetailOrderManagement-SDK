@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
 interface IShippedItemContainer
 {
     const SHIPPED_ITEM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IShippedItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IShippedItemIterable';
 
     /**
      * @return IShippedItemIterable

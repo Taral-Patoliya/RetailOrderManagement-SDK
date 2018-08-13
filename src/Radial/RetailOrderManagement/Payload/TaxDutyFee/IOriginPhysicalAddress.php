@@ -13,10 +13,10 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\IPhysicalAddress as ICheckoutPhysicalAddress;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Checkout\IPhysicalAddress as ICheckoutPhysicalAddress;
 
 interface IOriginPhysicalAddress extends IPayload, IPhysicalAddress
 {

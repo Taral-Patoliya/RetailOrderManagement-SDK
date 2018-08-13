@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\IPayloadMap;
-use eBayEnterprise\RetailOrderManagement\Payload\ISchemaValidator;
-use eBayEnterprise\RetailOrderManagement\Payload\IValidatorIterator;
-use eBayEnterprise\RetailOrderManagement\Payload\TTopLevelPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayloadMap;
+use Radial\RetailOrderManagement\Payload\ISchemaValidator;
+use Radial\RetailOrderManagement\Payload\IValidatorIterator;
+use Radial\RetailOrderManagement\Payload\TTopLevelPayload;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
@@ -71,7 +71,7 @@ class PayPalSetExpressCheckoutReply implements IPayPalSetExpressCheckoutReply
      */
     public function isSuccess()
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalSetExpressCheckoutReply
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalSetExpressCheckoutReply
         return ($this->getResponseCode() === self::SUCCESS_MESSAGE);
     }
 
@@ -82,7 +82,7 @@ class PayPalSetExpressCheckoutReply implements IPayPalSetExpressCheckoutReply
      */
     public function getResponseCode()
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalSetExpressCheckoutReply
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalSetExpressCheckoutReply
         return $this->responseCode;
     }
 
@@ -134,7 +134,7 @@ class PayPalSetExpressCheckoutReply implements IPayPalSetExpressCheckoutReply
      */
     public function getErrorMessage()
     {
-        // As from eBayEnterprise\RetailOrderManagement\Payload\Payment\IPayPalSetExpressCheckoutReply
+        // As from Radial\RetailOrderManagement\Payload\Payment\IPayPalSetExpressCheckoutReply
         return $this->errorMessage;
     }
 

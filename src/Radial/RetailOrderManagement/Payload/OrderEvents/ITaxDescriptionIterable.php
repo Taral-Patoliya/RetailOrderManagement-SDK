@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface ITaxDescriptionIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const TAX_DESCRIPTION_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\ITaxDescription';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\ITaxDescription';
     const ROOT_NODE = 'OrderTaxesDutiesFeesInformations';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const SUBPAYLOAD_XPATH = 'x:TaxesDutiesFeesInformation';

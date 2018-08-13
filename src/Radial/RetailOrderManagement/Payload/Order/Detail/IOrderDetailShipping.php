@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IShipGroupIterable;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IDestinationIterable;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IShipGroupContainer;
-use eBayEnterprise\RetailOrderManagement\Payload\Checkout\IDestinationContainer;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Order\IShipGroupIterable;
+use Radial\RetailOrderManagement\Payload\Order\IDestinationIterable;
+use Radial\RetailOrderManagement\Payload\Order\IShipGroupContainer;
+use Radial\RetailOrderManagement\Payload\Checkout\IDestinationContainer;
 
 interface IOrderDetailShipping extends IShipGroupContainer, IDestinationContainer, IShipmentContainer, IPayload
 {

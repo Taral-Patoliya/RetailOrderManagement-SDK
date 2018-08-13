@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderItemIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const ORDER_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItem';
+        '\Radial\RetailOrderManagement\Payload\Order\IOrderItem';
 
     /**
      * Get a new, empty order item object.

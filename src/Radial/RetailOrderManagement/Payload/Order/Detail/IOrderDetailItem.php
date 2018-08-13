@@ -13,16 +13,16 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IOrderItem;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Order\IOrderItem;
 use DateTime;
 
 interface IOrderDetailItem extends IStatusContainer, IChargeGroupContainer, IOrderItem
 {
     const CUSTOMER_CARE_ORDER_ITEM_TOTALS_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\ICustomerCareOrderItemTotals';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\ICustomerCareOrderItemTotals';
 
     /**
      * Indicates if this order item has chained or related items. This attribute is

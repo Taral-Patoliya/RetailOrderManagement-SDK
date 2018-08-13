@@ -13,7 +13,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
 /**
  * Container for items to reserve
@@ -21,7 +21,7 @@ namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
 interface IItemContainer
 {
     const ITEM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IItemIterable';
 
     /**
      * Collection of items to be reserved.

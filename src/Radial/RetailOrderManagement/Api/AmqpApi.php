@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Api;
+namespace Radial\RetailOrderManagement\Api;
 
-use eBayEnterprise\RetailOrderManagement\Api\Exception\ConnectionError;
-use eBayEnterprise\RetailOrderManagement\Api\TLogger;
-use eBayEnterprise\RetailOrderManagement\Payload;
-use eBayEnterprise\RetailOrderManagement\Payload\AmqpPayloadIterator;
+use Radial\RetailOrderManagement\Api\Exception\ConnectionError;
+use Radial\RetailOrderManagement\Api\TLogger;
+use Radial\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Payload\AmqpPayloadIterator;
 use PhpAmqpLib\Channel\AMQPChannel;
 use PhpAmqpLib\Connection\AbstractConnection;
 use PhpAmqpLib\Exception\AMQPExceptionInterface;
@@ -29,7 +29,7 @@ use ReflectionClass;
 
 /**
  * Class AmqpApi
- * @package eBayEnterprise\RetailOrderManagement\Api
+ * @package Radial\RetailOrderManagement\Api
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class AmqpApi implements IAmqpApi

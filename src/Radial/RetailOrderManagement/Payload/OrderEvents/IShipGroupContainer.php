@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 /**
  * Any payload that need the Ship group iterable can implement this
@@ -24,7 +24,7 @@ use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
 interface IShipGroupContainer extends IPayload
 {
     const SHIP_GROUP_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IShipGroupIterable';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IShipGroupIterable';
 
     /**
      * Get all ship groups.

@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\OrderEvents;
+namespace Radial\RetailOrderManagement\Payload\OrderEvents;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IOrderItemIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const ORDER_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents\IOrderItem';
+        '\Radial\RetailOrderManagement\Payload\OrderEvents\IOrderItem';
     const SUBPAYLOAD_XPATH = 'x:OrderItem';
     const ROOT_NODE = 'OrderItems';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';

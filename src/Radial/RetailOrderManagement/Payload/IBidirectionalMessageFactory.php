@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload;
+namespace Radial\RetailOrderManagement\Payload;
 
-use eBayEnterprise\RetailOrderManagement\Api\IConfig;
+use Radial\RetailOrderManagement\Api\IConfig;
 use Psr\Log\LoggerInterface;
 
 interface IBidirectionalMessageFactory extends IMessageFactory

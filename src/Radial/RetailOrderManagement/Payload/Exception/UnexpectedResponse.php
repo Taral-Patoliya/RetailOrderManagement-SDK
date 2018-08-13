@@ -13,11 +13,11 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Exception;
+namespace Radial\RetailOrderManagement\Payload\Exception;
 
 /**
  * Class UnexpectedResponse
- * @package eBayEnterprise\RetailOrderManagement\Payload\Exception
+ * @package Radial\RetailOrderManagement\Payload\Exception
  *
  * Thrown when a string received from a remote location could not be de-serialized into a valid Payload object.
  */

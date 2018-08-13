@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order;
+namespace Radial\RetailOrderManagement\Payload\Order;
 
 interface ILoyaltyProgramContainer
 {
     const LOYALTY_PROGRAM_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable';
+        '\Radial\RetailOrderManagement\Payload\Order\ILoyaltyProgramIterable';
     /**
      * Any loyalty programs within the container
      *

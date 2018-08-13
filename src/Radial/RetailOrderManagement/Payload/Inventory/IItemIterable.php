@@ -13,17 +13,17 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IIterablePayload;
+use Radial\RetailOrderManagement\Payload\IIterablePayload;
 
 interface IItemIterable extends IIterablePayload
 {
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const INSTOREPICKUP_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IInStorePickUpItem';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IInStorePickUpItem';
     const SHIPPING_ITEM_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IShippingItem';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IShippingItem';
 
     /**
      * Get a new, empty item for shipping.

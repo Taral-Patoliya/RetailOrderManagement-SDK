@@ -13,10 +13,10 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Payment;
+namespace Radial\RetailOrderManagement\Payload\Payment;
 
-use eBayEnterprise\RetailOrderManagement\Payload;
-use eBayEnterprise\RetailOrderManagement\Payload\Exception;
+use Radial\RetailOrderManagement\Payload;
+use Radial\RetailOrderManagement\Payload\Exception;
 
 trait TPayPalPaymentInfo
 {

@@ -13,15 +13,15 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\ITax;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Order\ITax;
 
 interface ITaxCharge extends ICharge
 {
     const TAX_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\ITax';
+        '\Radial\RetailOrderManagement\Payload\Order\ITax';
 
     /**
      * @return string

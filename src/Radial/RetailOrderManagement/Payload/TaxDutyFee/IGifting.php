@@ -13,12 +13,12 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee;
+namespace Radial\RetailOrderManagement\Payload\TaxDutyFee;
 
 interface IGifting
 {
     const GIFTING_PRICE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\TaxDutyFee\IMerchandisePriceGroup';
+        '\Radial\RetailOrderManagement\Payload\TaxDutyFee\IMerchandisePriceGroup';
 
     /**
      * Get a new, empty price group for gifting pricing.

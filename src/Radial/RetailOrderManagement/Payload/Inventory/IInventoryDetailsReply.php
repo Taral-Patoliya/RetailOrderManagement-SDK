@@ -13,9 +13,9 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Inventory;
+namespace Radial\RetailOrderManagement\Payload\Inventory;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 /**
  * Payload used to fetch a fulfillment delivery estimate and ship from address
@@ -28,9 +28,9 @@ interface IInventoryDetailsReply extends IPayload
     const XSD = '/checkout/1.0/Inventory-Service-InventoryDetails-1.0.xsd';
     const ROOT_NODE = 'InventoryDetailsResponseMessage';
     const UNAVAILABLE_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IUnavailableItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IUnavailableItemIterable';
     const DETAIL_ITERABLE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Inventory\IDetailItemIterable';
+        '\Radial\RetailOrderManagement\Payload\Inventory\IDetailItemIterable';
 
     /**
      * Collection of items which cannot be fulfilled.

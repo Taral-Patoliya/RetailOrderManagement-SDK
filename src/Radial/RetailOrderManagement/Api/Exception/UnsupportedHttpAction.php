@@ -14,11 +14,11 @@
  */
 
 
-namespace eBayEnterprise\RetailOrderManagement\Api\Exception;
+namespace Radial\RetailOrderManagement\Api\Exception;
 
 /**
  * Class UnsupportedHttpAction
- * @package eBayEnterprise\RetailOrderManagement\Api\Exception
+ * @package Radial\RetailOrderManagement\Api\Exception
  */
 class UnsupportedHttpAction extends \Exception
 {

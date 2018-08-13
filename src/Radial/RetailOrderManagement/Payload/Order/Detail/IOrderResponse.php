@@ -13,13 +13,13 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IFeeContainer;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\IItemRelationshipContainer;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\ICustomAttributeContainer;
-use eBayEnterprise\RetailOrderManagement\Payload\Order\ITemplateContainer;
+use Radial\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\Order\IFeeContainer;
+use Radial\RetailOrderManagement\Payload\Order\IItemRelationshipContainer;
+use Radial\RetailOrderManagement\Payload\Order\ICustomAttributeContainer;
+use Radial\RetailOrderManagement\Payload\Order\ITemplateContainer;
 use DateTime;
 
 interface IOrderResponse extends IOrderDetailItemContainer, IFeeContainer, IItemRelationshipContainer, IShipmentContainer, ICustomAttributeContainer, ITemplateContainer, IExchangeOrderContainer, IChargeGroupContainer, IPayload
@@ -27,15 +27,15 @@ interface IOrderResponse extends IOrderDetailItemContainer, IFeeContainer, IItem
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
     const ROOT_NODE = 'Order';
     const CUSTOMER_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IOrderDetailCustomer';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IOrderDetailCustomer';
     const SHIPPING_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IOrderDetailShipping';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IOrderDetailShipping';
     const PAYMENT_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IOrderDetailPayment';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IOrderDetailPayment';
     const ASSOCIATE_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IAssociate';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IAssociate';
     const TAX_HEADER_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\ITaxHeader';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\ITaxHeader';
 
     /**
      * The unique text string that identifies an order.

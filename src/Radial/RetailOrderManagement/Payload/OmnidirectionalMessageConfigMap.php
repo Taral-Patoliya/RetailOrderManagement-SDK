@@ -18,8 +18,8 @@
  * @return array mapping of config keys to message payload types for bidirectional api operations
  */
 return call_user_func(function () {
-    $orderEvents = '\eBayEnterprise\RetailOrderManagement\Payload\OrderEvents';
-    $riskEvents = '\eBayEnterprise\RetailOrderManagement\Payload\Risk';
+    $orderEvents = '\Radial\RetailOrderManagement\Payload\OrderEvents';
+    $riskEvents = '\Radial\RetailOrderManagement\Payload\Risk';
     $map = [];
     $map['OrderAccepted'] = "$orderEvents\OrderAccepted";
     $map['OrderBackorder'] = "$orderEvents\OrderBackorder";

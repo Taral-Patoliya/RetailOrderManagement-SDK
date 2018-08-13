@@ -13,14 +13,14 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace eBayEnterprise\RetailOrderManagement\Payload\Order\Detail;
+namespace Radial\RetailOrderManagement\Payload\Order\Detail;
 
-use eBayEnterprise\RetailOrderManagement\Payload\IPayload;
+use Radial\RetailOrderManagement\Payload\IPayload;
 
 interface IChargeGroupIterable extends \Countable, \Iterator, \ArrayAccess, IPayload
 {
     const CHARGE_GROUP_INTERFACE =
-        '\eBayEnterprise\RetailOrderManagement\Payload\Order\Detail\IChargeGroup';
+        '\Radial\RetailOrderManagement\Payload\Order\Detail\IChargeGroup';
     const XML_NS = 'http://api.gsicommerce.com/schema/checkout/1.0';
 
     /**
